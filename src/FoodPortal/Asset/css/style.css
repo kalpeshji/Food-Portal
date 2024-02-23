@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup-container {
+    padding: 20px;
+    width: 350px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: #212529;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00ec33;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #009f22;
+}
+
+.v-100 {
+    height: 100vh;
+}
+
+.btn {
+    background-color: #00ec33 !important;
+    transition: all 0.2s ease-in;
+    color: #000;
+}
+
+.btn:hover {
+    background-color: #009f22 !important;
+    color: #fff;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.w-3 {
+    width: 25%;
+    padding: 0px 12px;
+}
+
+.product-card {
+    box-shadow: 3px 5px 20px gray;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.title {
+    margin: 20px 0px 10px !important;
+    font-size: 20px;
+}
+
+.dsc {
+    font-size: 14px;
+    color: grey;
+}
+
+.price {
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+img {
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+/* Main-banner */
+
+.set {
+    width: 100%;
+    height: 100%;
+}
+
+.te-su {
+    color: #00ec33 !important;
+}
+.top20{
+    top:20px;
+    right: 20px;
+    left: 20px;
+}
+.navhov:hover {
+    color: #00ec33 !important;
+}
+
+/* About */
+.p-6 {
+    padding: 30px 0px !important;
+}
+
+.p-7 {
+    padding: 100px 0px 90px 0px !important;
+}
+
+.bga {
+    background-image: url(../image/background_about_us.jpg );
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgd {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.ad-h{
+    background-color: #00ec33 !important;
+}
+.brd{
+    border-right: 2px solid #00ec33 !important;
+}
+.brf{
+    border: 2px solid #00ec33 !important;
+}
+.aside{
+    width:300px;
+}
+.wid{
+    width: 298px;
+}
+.kal{
+    width: 70px;
+    height: 70px;
+}
+.roun{
+    border-radius: 52% 50%;
+}
+.p-8{
+    padding: 100px 20px 20px 20px;
+}
+.bdr-s{
+    padding: 20px 40px;
+    border-radius: 50%;
+    border: 2px solid #00ec33;
+    box-shadow: inset 0px 0px 20px 0px #00ec33;
+}
+
+
+/* Page-content */
+
+.m-300{
+    margin-left: 300px;
+}
+.bdrs{
+    border-right: 2px solid #00ec33;
+    border-bottom: 2px solid #00ec33;
+}
+.err{
+    width: 600px;
+}
+img{
+    transition: all 0.2s linear;
+}
+.hov:hover img{
+    transform: scale(1.2);
+}
+.mt-6{
+    margin-top: 100px !important;
+}
+.grid{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 24px;
+}
